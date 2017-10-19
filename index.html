@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script src="js/rem1.js"></script>
+		<title></title>
+		<style>
+
+		</style>
+	</head>
+
+	<body>
+		<div id="box">
+			<!--头部-->
+			<div class="head">
+				<img src="img/111.png">
+				<ul class="head_ul">
+					<li class="li1"></li>
+					<li class="li2">
+						<img src="img/01_03.png" id="search">
+						<div>搜索今日最新推荐</div>
+					</li>
+					<li class="li1"></li>
+				</ul>
+
+			</div>
+			<!--中间图片选项-->
+			<div class="two">
+				<ul>
+					<li>
+						<img src="img/04_15.png">
+						<p>美食</p>
+					</li>
+					<li>
+						<img src="img/04_10.png">
+						<p>水果</p>
+					</li>
+					<li>
+						<img src="img/04_12.png">
+						<p>干货</p>
+					</li>
+					<li>
+						<img src="img/04_07.png">
+						<p>营养师</p>
+					</li>
+					<li>
+						<img src="img/05_15.png">
+						<p>外卖</p>
+					</li>
+					<li>
+						<img src="img/08_28.png">
+						<p>定时</p>
+					</li>
+					<li>
+						<img src="img/09_26.png">
+						<p>定制菜谱</p>
+					</li>
+					<li>
+						<img src="img/08_31.png">
+						<p>月子餐</p>
+					</li>
+					<li>
+						<img src="img/09_31.png">
+						<p>甜点</p>
+					</li>
+					<li>
+						<img src="img/10_37.png">
+						<p>更多</p>
+					</li>
+				</ul>
+			</div>
+			<!--第三部分-->
+			<div class="three">
+
+			</div>
+			<!--第4部分-->
+			<div class="four">
+				<p>
+					<span>—</span>
+					<span>热门菜谱</span>
+					<span></span>
+					<span>BEST</span>
+					<span>—</span>
+				</p>
+			</div>
+			<!--第5部分-->
+			<div class="five">
+				<ul>
+					<li class="li1"></li>
+					<li class="li2">
+						<img src="img/14_03.png">
+					</li>
+					<li class="li3"></li>
+					<li class="li4">
+						<p class="p1">红烧排骨</p>
+						<p class="p2">猪排骨提供人体生理活动必需的优质蛋白、</p>
+						<p class="p2">脂肪，尤其是丰富的钙质可维护骨骼健康</p>
+					</li>
+					<li class="li5"></li>
+				</ul>
+			</div>
+			<!--第六部分-->
+			<div class="six">
+				<ul>
+					<li class="li1"></li>
+					<li class="li2">
+						<img src="img/14_06.png">
+					</li>
+					<li class="li3"></li>
+					<li class="li4">
+						<p class="p1">蔬菜拌面</p>
+						<p class="p2">猪排骨提供人体生理活动必需的优质蛋白、</p>
+						<p class="p2">脂肪，尤其是丰富的钙质可维护骨骼健康</p>
+					</li>
+					<li class="li5"></li>
+				</ul>
+			</div>
+			<!--第7部分-->
+			<div class="seven">
+
+			</div>
+			<!--第8部分-->
+			<div class="four">
+				<p>
+					<span>—</span>
+					<span>为你优选</span>
+					<span></span>
+					<span>BEST</span>
+					<span>—</span>
+				</p>
+			</div>
+			<!--第9部分-->
+			<div class="e">
+				<ul>
+					<li>
+						<img src="img/19_03.png">
+					</li>
+					<li>
+						<img src="img/14_09.png">
+					</li>
+					<li>
+						<img src="img/15_11.png">
+					</li>
+				</ul>
+			</div>
+			<div style="height: 4.8rem;"></div>
+			<!--第10部分-->
+			<div class="shi">
+				<ul>
+					<li>
+						<img src="img/1_03.png">
+						<p class="bor">首页</p>
+					</li>
+					<li>
+						<img src="img/1_05.png">
+						<p>发现</p>
+					</li>
+					<li>
+						<img src="img/1_07.png">
+						<p>视频</p>
+					</li>
+					<li>
+						<img src="img/1_09.png">
+						<p>社区</p>
+					</li>
+					<li>
+						<img src="img/1_11.png">
+						<p>我的</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script>
+			
+				$(".shi ul li p").click(function(){
+					var index=$(this).index();
+					$(".shi ul li p").eq(index).addClass("bor").siblings().removeClass("bor")
+				})
+		
+		</script>
+	</body>
+
+</html>
